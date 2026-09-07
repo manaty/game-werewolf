@@ -1,0 +1,8 @@
+import {build} from 'esbuild';
+import {mkdir,readFile,writeFile,readdir} from 'node:fs/promises';
+const manifest=JSON.parse(await readFile('retro-museum.json','utf8'));
+const bundle=async file=>(await build({entryPoints:[file],bundle:true,write:false,format:'iife',target:'chrome58',minify:true})).outputFiles[0].text;
+const engine=await bundle('src/adapter.js'),client=await bundle('src/view.js'),css=await readFile('src/style.css','utf8')+await readFile('src/werewolf.css','utf8');
+const assets={};async function scan(dir,path=''){for(const item of await readdir(dir,{withFileTypes:true})){const key=path+item.name;if(item.isDirectory())await scan(dir+'/'+item.name,key+'/');else if(/\.(png|jpg|mp3)$/.test(key))assets[key]={type:key.endsWith('.mp3')?'audio/mpeg':key.endsWith('.png')?'image/png':'image/jpeg',data:(await readFile(dir+'/'+item.name)).toString('base64')};}}await scan('assets');
+const view=`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>${css}\n[data-fullscreen]{display:none}.wolf-shell{min-height:100vh}.sound{position:fixed;z-index:100;right:1rem;bottom:1rem}.wolf-phone .wolf-shell{padding-top:1rem}</style><body><main id="app"></main><button id="sound" class="button sound">♪ Enable sound / Activer le son</button><p id="notice" role="status"></p><script>${client.replaceAll('</script','<\\/script')}</script></body></html>`;
+await mkdir('dist',{recursive:true});await writeFile('dist/game.rmg.json',JSON.stringify({manifest,engine,view,assets,licenseText:await readFile('LICENSE','utf8')}));console.log('Built '+manifest.id+' '+manifest.version);

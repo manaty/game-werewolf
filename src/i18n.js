@@ -1,0 +1,1 @@
+export const locationLabel=(l,r,s)=>({en:'Room',fr:'Salle',tl:'Silid'}[l]||'Room')+' '+r+' / '+s;export const t=(l,k)=>k==='fullscreen'?({en:'Full screen',fr:'Plein écran',tl:'Buong screen'}[l]||'Full screen'):k;

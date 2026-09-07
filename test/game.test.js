@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {Werewolf,shuffledRoles} from '../src/engine.js';
+const players=Array.from({length:5},(_,i)=>({id:'p'+i}));
+test('private roles stay private and survive restoration',()=>{const game=new Werewolf(players),publicView=game.snapshot();assert.equal(publicView.private,undefined);assert.ok(publicView.players.every(p=>p.role===undefined));const restored=new Werewolf(players,game.save());for(const p of players)assert.deepEqual(restored.snapshot(p.id),game.snapshot(p.id));});
+test('fresh five-player decks contain one wolf, one seer, one witch and two villagers',()=>{for(let n=0;n<20;n++)assert.deepEqual(shuffledRoles(5).sort(),['seer','villager','villager','witch','wolf']);});
+test('an eyes-open decoy never changes the real wolf choice',()=>{const game=new Werewolf(players,null,{nightMode:'openEyes'});game.enter('wolves');const villager=game.players.find(p=>p.role==='villager'),wolf=game.players.find(p=>p.role==='wolf');game.action(villager.id,'wolfChoose',{sequence:game.sequence,target:wolf.id});assert.deepEqual(game.choices,{});assert.equal(game.snapshot().private,undefined);});

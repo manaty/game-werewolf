@@ -1,0 +1,1 @@
+{"name":"@manaty/game-werewolf","version":"1.0.0","type":"module","license":"MIT","description":"Werewolves: a narrated village for Retro Museum and home play","exports":{"./engine":"./src/engine.js"},"scripts":{"build":"node build.mjs","test":"node --test test/*.test.js"},"devDependencies":{"esbuild":"0.28.2"},"engines":{"node":">=22"}}

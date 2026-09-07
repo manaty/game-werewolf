@@ -1,0 +1,362 @@
+{
+  "en/wolves": {
+    "hash": "0649581bd0cf8eb82292a57b69b8ede57641dc0d253cacfce7b1a8bfa2d4c791",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 109824
+  },
+  "en/seer": {
+    "hash": "d3c27997d0e15fc8383b31c67b50e5e2338d1e9ca4921e0db6865b163609f2e3",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 137856
+  },
+  "en/reveal": {
+    "hash": "773ebdcf21662ed36983445a75bcc4ad135871abe13ea8bd27060453198863d9",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 127488
+  },
+  "en/night": {
+    "hash": "1256d091fef96cc6d3981fb172720f59b1e4fe95d9a2901408d0058c545914c1",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 108288
+  },
+  "en/witch": {
+    "hash": "499d30a7fd2c9c0cfa5cda4da7f3316e7e5467973629f18c389f6ea21db593ab",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 159360
+  },
+  "en/dawn": {
+    "hash": "d5a71c701481c6c713a76cb59d191159eb9aede6b45fcc7f273472132321c95d",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 154368
+  },
+  "en/hunter": {
+    "hash": "a812d2d7045110a6f42770ebcb24036f6c3c5bfe6ae57af21c8b5b14d1f6b5d1",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 74496
+  },
+  "en/debate": {
+    "hash": "41844f9a619125959ecadb5cd1a001c52f806f7a9b1560826ae34e8de97a90c7",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 93696
+  },
+  "en/vote": {
+    "hash": "c1b1e294cc240e86e70bb9329e295e4a98b775ff9d2f9f447af226cabe77cfab",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 129792
+  },
+  "en/verdict": {
+    "hash": "070c01407e32e2306eb71f8ec9601480497cebf0093f519cc8b18d63f97ba92c",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 112128
+  },
+  "en/village": {
+    "hash": "18e54b06a09833d49d802a40b89a52c9bf2a2a6a2f915f8f76159e63d9f5016e",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 104064
+  },
+  "en/paused": {
+    "hash": "89f325d20a08df241e31754cd5937a6f137f752b8ca632f2ea6677530eca7151",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 44928
+  },
+  "en/ended": {
+    "hash": "63d9b5ba900f23c4ec6b6cedf7b46e195e015ceffd41beaf126c9113eb3c43f1",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 54528
+  },
+  "en/wolvesWin": {
+    "hash": "c5c397fb99058dece54b95c0c845b7ffbca0c75d841216994fdbc6ac3dd640bf",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 104832
+  },
+  "fr/reveal": {
+    "hash": "be43240b57c7ae89de0bb018712758141e7ffc480702924ab6a6a104cff7cef9",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 169728
+  },
+  "fr/night": {
+    "hash": "75039831e9c6705542f1e2deb1ea0f364f044da16140812955111333d5de79fa",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 119424
+  },
+  "fr/wolves": {
+    "hash": "8b3020e1febb2b6d4915dc8c24d7ed6aeba44f3f2698d8d02f5cc69157bbbea1",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 137856
+  },
+  "fr/seer": {
+    "hash": "1ae2b1df1e9e14a7ce0204812c15ab7aae508df4978b7828a3f3dcad6fc30fe5",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 196224
+  },
+  "fr/dawn": {
+    "hash": "d6584652f255eeaf74954bddcd858fa2b582af87c05b712f8892369c977fd898",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 168960
+  },
+  "fr/witch": {
+    "hash": "049a304ec45871796e44dc56a80c272086081fe6bfef95f889c36e6e81860630",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 183168
+  },
+  "fr/hunter": {
+    "hash": "f44a71943e9216c85008ade35456392ee5f4bed446cf693b630da1b6a3b99467",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 106368
+  },
+  "fr/debate": {
+    "hash": "164b2ec7089fe8b57e88287056a9a0f6a66112c059275f3fc85818dd5ef2ba85",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 114432
+  },
+  "fr/verdict": {
+    "hash": "d99ffe099681c4e6ca7a5887e37ea9a0b174078cada5af26839794acf5afae59",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 148224
+  },
+  "fr/vote": {
+    "hash": "d42a9e395ad2451f0eee5bf4d04f9909f53c3eb26167e5cf39dca8d9d8da144e",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 168960
+  },
+  "fr/village": {
+    "hash": "816e45b947796ce38e8c5b001cf62204b7972b5e53ae1985ca236c1b3bba12ea",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 129792
+  },
+  "fr/paused": {
+    "hash": "31a43aba7fe169bd9ba799b66355f89a8d18555171cc058f817a0d8a8c7d259d",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 55296
+  },
+  "fr/wolvesWin": {
+    "hash": "7f58c515468dde539d0dc936a771431359a0a158adafdfe2bc72e33c2fded307",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 136320
+  },
+  "fr/ended": {
+    "hash": "2d05ea63483b6b8dcfbf49217ed6f15b70460538efc6843e5716e4b8f74e05ca",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 96000
+  },
+  "tl/night": {
+    "hash": "38227f015a27f523676e07ae02348036a0e3692ac7acef87af60772e2990072a",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 129024
+  },
+  "tl/reveal": {
+    "hash": "cb96daa1443eeb80c9069e2e76f8b3c95db173f1eea67d81283c961c3b8e692d",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 192000
+  },
+  "tl/wolves": {
+    "hash": "f36ab45b5354c2761240694ebdb454637334b8013afa59582702c008858ea2ee",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 139392
+  },
+  "tl/seer": {
+    "hash": "316cdb833e92189bd5462356f4c33a2c419193d28b5ec107f2416b24c505955a",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 200064
+  },
+  "tl/witch": {
+    "hash": "a306f90eb533df7512b77b90672d26b75d0b9b6b860bd698b494283d47b3a7c6",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 240768
+  },
+  "tl/dawn": {
+    "hash": "924455fd697f721486dafb1686cb79e6c9d0c4163694e56bf85d580ba3b74ca7",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 192000
+  },
+  "tl/hunter": {
+    "hash": "44f8cc790976a467e5ccebef73581659b7d4bba04696d6cdd8160a1e837f8a3c",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 125568
+  },
+  "tl/vote": {
+    "hash": "ab0c8b951eef6e099155da53d483b3980aac08ca7f49c4149b43b0cb453478fb",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 154368
+  },
+  "tl/verdict": {
+    "hash": "ce545a661d9fa7510c4f1273b71c093da6eeceecedc99f2abaad6223bb56d838",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 167424
+  },
+  "tl/village": {
+    "hash": "dff48fa120ab30ffe82da4e91a49307b2304ced033beebc752cb83b1ffbbbed9",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 139392
+  },
+  "tl/debate": {
+    "hash": "be415a4eec918606cf5ce0f7ba5afe9b45c8aea6e456a1c891f28b7c45531b12",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 158592
+  },
+  "tl/wolvesWin": {
+    "hash": "6b69c5edcc8679e942912d32b41983d580652396e489905590d4cb9489d2fa88",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 113664
+  },
+  "tl/ended": {
+    "hash": "316eb24773de54208afc131b83c654a3ce0a71c0a14f8892bf09aa4af2e790ea",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 100992
+  },
+  "tl/paused": {
+    "hash": "9806fb31f0b52913567c512c3b09d18d5512d1caf530de08039e8aa7d9ed526b",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 112896
+  },
+  "en/openWolves": {
+    "hash": "ac36fa3f72e3e7309c8d3fdae0b1cc4f6dc2926bfafa1d7b913b21c330e38b17",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 150528
+  },
+  "en/openNight": {
+    "hash": "f8c317fe5d13f2a866211fc534d25d863c0ed652f37779099dd522b3d0849e77",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 186624
+  },
+  "en/openReveal": {
+    "hash": "0d9e32ee02177f38e3d0e927192b2e2f51b689a066646c0d68ec61fdd58634a8",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 230400
+  },
+  "en/openWitch": {
+    "hash": "e213ae9eb7acfbe54f6649c748191b6b2ff05733de40e37d4da2b8aac510368f",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 172032
+  },
+  "en/openSeer": {
+    "hash": "23d2098a3578569215344b710f09321ae0f36e306915235578b9def57b0c2858",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 167424
+  },
+  "en/openDawn": {
+    "hash": "f3591ac36730c65ff777a005fc57b110b14842fc2038237419e469c690681ca4",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 152064
+  },
+  "fr/openNight": {
+    "hash": "62fd66792bbdbfc642c5b437a1c8155e96fc958f959369211f352b0e13296733",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 185088
+  },
+  "fr/openReveal": {
+    "hash": "b6f14b9d1f926ff7d9e6785ac4e56ed1f935d891311a6e382dc533916254a33b",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 218496
+  },
+  "fr/openWolves": {
+    "hash": "8c751436c00b0ef51232047440f7dd9685cc04e0c91bb4940e214d19019c8c6e",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 180864
+  },
+  "fr/openSeer": {
+    "hash": "ec1ffa7107d12e21e49ccdb6ed1bc8695d0714b73bbdbf3bbbaca723f465cb24",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 213888
+  },
+  "fr/openWitch": {
+    "hash": "62fa2a821a499a2d5be5dacf7f41b22f38a333032e1637c832d09f902b88cde7",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 235392
+  },
+  "fr/openDawn": {
+    "hash": "88f86dafb60a4db0b7e3ba4c147dffb9734c1059b14881451a30ad2023724041",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 193920
+  },
+  "tl/openNight": {
+    "hash": "e33728f7c162e7c847d6fb040fe48639d39140284781f7d903b396da7aca8af4",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 228864
+  },
+  "tl/openReveal": {
+    "hash": "1871d334c8e85fcd371441be23d117212e580d6d565f74c189a47c9459a10056",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 273024
+  },
+  "tl/openWolves": {
+    "hash": "92d8f7bfc61059bf5e6c3de547c23cfe095bca0a254dde431f803d7b2180fa92",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 249600
+  },
+  "tl/openSeer": {
+    "hash": "b3b3f576badb77ce6f10b147cb736b1688eb0b326c53ac474da966e8ded8e012",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 248832
+  },
+  "tl/openDawn": {
+    "hash": "4501467d3c391f6eddbdcb8383f109a93c75e17ab9c3f1ed80ffa93bba49d8a5",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 173568
+  },
+  "tl/openWitch": {
+    "hash": "9fa05ff2dc78dc54c587bebd0959ad43e289b783cad340a28bb415434c8ca52d",
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "bytes": 261120
+  }
+}
