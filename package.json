@@ -6,7 +6,8 @@
   "description": "Play Werewolves · The village together on a shared screen, using phones as controllers. 4–16 players.",
   "exports": {
     "./engine": "./src/engine.js",
-    "./package": "./dist/game.rmg.json"
+    "./package": "./dist/game.rmg.json",
+    "./public/*": "./public/*"
   },
   "scripts": {
     "build": "node build.mjs",

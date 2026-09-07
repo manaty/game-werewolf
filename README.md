@@ -1,3 +1,5 @@
+[▶ Play online — no installation](https://retro-museum-games-482805962191.asia-southeast1.run.app/g/werewolf-village)
+
 # Werewolves · The village
 
 A Retro Museum activity for 4–16 players, in English, French and Tagalog. Automatic narration, several nights, private held role cards and an eyes-open night variant.
