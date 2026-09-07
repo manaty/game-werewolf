@@ -2,6 +2,8 @@
 
 A Retro Museum activity for 4–16 players, in English, French and Tagalog. Automatic narration, several nights, private held role cards and an eyes-open night variant.
 
+[Retro Museum on Nexlink](https://nexlink.ph/p/retro-museum) · [Creator toolkit](https://github.com/manaty/retro-museum-sdk)
+
 ## A look inside the village
 
 ### The shared display · night
@@ -24,9 +26,11 @@ Press and hold the card to reveal your role; release it to hide it again. The ph
 
 ## Build
 
-npm install
+```sh
+npm ci --ignore-scripts
 npm run build
 npm test
+```
 
 The committed `dist/game.rmg.json` is the versioned package for the [Retro Museum marketplace](https://github.com/manaty/retro-museum-marketplace), following the [SDK contract](https://github.com/manaty/retro-museum-sdk). The game engine is also exported as `@manaty/game-werewolf/engine` and is used by Retro Museum. The official prevalidation Action checks the package on every push.
 
