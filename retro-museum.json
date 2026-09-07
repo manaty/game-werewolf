@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "werewolf-village",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "title": {
     "en": "Werewolves · The village",
     "fr": "Loups-garous · Le village",
     "tl": "Mga Taong-lobo · Ang nayon"
   },
   "description": {
-    "en": "A narrated village with secret roles, multiple nights and an eyes-open variant. One shared screen and 4–16 phones.",
-    "fr": "Un village animé, des rôles secrets, plusieurs nuits et une variante les yeux ouverts. Un écran commun et 4 à 16 téléphones.",
-    "tl": "Isang nayon na may tagapagsalaysay, lihim na papel at maraming gabi. Para sa 4–16 na manlalaro."
+    "en": "Play Werewolves · The village together on a shared screen, using phones as controllers. 4–16 players.",
+    "fr": "Jouez à Loups-garous · Le village ensemble sur un écran partagé, avec les téléphones comme manettes. 4 à 16 joueurs.",
+    "tl": "Maglaro ng Mga Taong-lobo · Ang nayon sa isang shared screen gamit ang mga telepono. 4–16 na manlalaro."
   },
   "author": "Manaty",
   "license": "MIT",
@@ -27,6 +27,34 @@
   "runtime": "quickjs-v1",
   "entry": "dist/game.rmg.json",
   "permissions": [],
-  "category": "social",
+  "activityKey": "werewolf",
+  "options": {
+    "debateSeconds": {
+      "label": {
+        "en": "Discussion (seconds)",
+        "fr": "Discussion (secondes)",
+        "tl": "Talakayan (segundo)"
+      },
+      "values": [
+        60,
+        90,
+        120,
+        180
+      ],
+      "default": 90
+    },
+    "nightMode": {
+      "label": {
+        "en": "Night mode",
+        "fr": "Mode de nuit",
+        "tl": "Paraan sa gabi"
+      },
+      "values": [
+        "classic",
+        "openEyes"
+      ],
+      "default": "openEyes"
+    }
+  },
   "cover": "scenes/werewolf-day.png"
 }

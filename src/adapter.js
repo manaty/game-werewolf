@@ -1,6 +1,2 @@
 import {Werewolf} from './engine.js';
-globalThis.RetroMuseumGame={create(players,saved,options){
- const game=new Werewolf(players,saved,options);
- game.status=()=>({winner:game.winner,requiredPlayers:game.players.filter(p=>p.alive).map(p=>p.id),decisionSeconds:game.left});
- return game;
-}};
+globalThis.RetroMuseumGame={create(players,saved,options={}){const game=new Werewolf(players,saved,options);return {action(id,action,value){if(action==='hostTimeUp'){game.finishTime?.();return;} return game.action(id,action,value);},advance(dt){return game.advance?.(dt);},snapshot(id){return game.snapshot(id);},save(){return game.save();},release(id){return game.release(id);},addPlayer(){/* New arrivals spectate until the next match. */},status(){return {winner:game.winner,requiredPlayers:game.players.filter(p=>p.alive).map(p=>p.id),decisionSeconds:game.left};}};}};

@@ -24,6 +24,18 @@ The village changes with the day/night cycle. The software narrator handles the 
 
 Press and hold the card to reveal your role; release it to hide it again. The phone can use a different language from the shared display. Captures show a demonstration with fictional player profiles, using the packaged game interface.
 
+## Play on your own server
+
+```sh
+npm ci
+npm run build
+npm start
+```
+
+Open [localhost:4311](http://localhost:4311), click **Play now**, and scan the displayed QR with each phone. On Wi-Fi, set `PUBLIC_ORIGIN` to the computer's reachable address, such as `http://192.168.1.10:4311`. In production use its HTTPS origin. `PORT` and `DATA_DIR` are configurable.
+
+The room organiser can start, pause and end the game; players can replay. Profiles, cropped avatars and phone language are saved in the browser. Late arrivals play in the next match. Game logic is authoritative on the server, and private roles/cards never appear on the shared display.
+
 ## Build
 
 ```sh
@@ -32,7 +44,7 @@ npm run build
 npm test
 ```
 
-The committed `dist/game.rmg.json` is the versioned package for the [Retro Museum marketplace](https://github.com/manaty/retro-museum-marketplace), following the [SDK contract](https://github.com/manaty/retro-museum-sdk). The game engine is also exported as `@manaty/game-werewolf/engine` and is used by Retro Museum. The official prevalidation Action checks the package on every push.
+The committed `dist/game.rmg.json` is the versioned package for the [Retro Museum marketplace](https://github.com/manaty/retro-museum-marketplace), following the [SDK contract](https://github.com/manaty/retro-museum-sdk). The game engine is also exported as `@manaty/game-werewolf/engine` and is used by Retro Museum. This repository also includes its complete browser interface and can run without the museum. The official prevalidation Action checks the package on every push.
 
 ## Attribution
 

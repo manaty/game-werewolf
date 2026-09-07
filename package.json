@@ -1,1 +1,26 @@
-{"name":"@manaty/game-werewolf","version":"1.0.1","type":"module","license":"MIT","description":"Werewolves: a narrated village for Retro Museum and home play","exports":{"./engine":"./src/engine.js"},"scripts":{"build":"node build.mjs","test":"node --test test/*.test.js"},"devDependencies":{"esbuild":"0.28.2"},"engines":{"node":">=22"}}
+{
+  "name": "@manaty/game-werewolf",
+  "version": "1.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Play Werewolves · The village together on a shared screen, using phones as controllers. 4–16 players.",
+  "exports": {
+    "./engine": "./src/engine.js",
+    "./package": "./dist/game.rmg.json"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "retro-museum-host --package dist/game.rmg.json",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/c274706ea02746bd191656bb9ba5816bc5768e5f.tar.gz",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
