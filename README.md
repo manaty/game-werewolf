@@ -2,13 +2,33 @@
 
 A Retro Museum activity for 4–16 players, in English, French and Tagalog. Automatic narration, several nights, private held role cards and an eyes-open night variant.
 
+## A look inside the village
+
+### The shared display · night
+
+![The village at night, with narration instructions and the five demo players](docs/screenshots/village-night.png)
+
+In the eyes-open variant, every player appears to make a night choice on their phone. Only the relevant secret role affects the real outcome.
+
+### The shared display · day
+
+![The sunlit village during the discussion phase, with the countdown and player roster](docs/screenshots/village-day.png)
+
+The village changes with the day/night cycle. The software narrator handles the phases, discussion time and voting.
+
+### The player's phone
+
+<img src="docs/screenshots/phone-secret-role.png" alt="French phone interface with a hidden role card, private night choices and the player roster" width="360">
+
+Press and hold the card to reveal your role; release it to hide it again. The phone can use a different language from the shared display. Captures show a demonstration with fictional player profiles, using the packaged game interface.
+
 ## Build
 
 npm install
 npm run build
 npm test
 
-The committed dist/game.rmg.json is the immutable game package submitted to the [Retro Museum marketplace](https://github.com/manaty/retro-museum-marketplace). Install it from your museum's marketplace panel or launch it with the SDK standalone host. The game engine is also exported as @manaty/game-werewolf/engine.
+The committed `dist/game.rmg.json` is the versioned package for the [Retro Museum marketplace](https://github.com/manaty/retro-museum-marketplace), following the [SDK contract](https://github.com/manaty/retro-museum-sdk). The game engine is also exported as `@manaty/game-werewolf/engine` and is used by Retro Museum. The official prevalidation Action checks the package on every push.
 
 ## Attribution
 

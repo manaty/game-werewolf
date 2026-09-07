@@ -9,6 +9,8 @@ function playSound(){if(role!=='display'||!state)return;music.update(audioContex
 window.addEventListener('message',event=>{
  if(event.source!==parent||event.data?.retroMuseum!==1||event.data.type!=='state')return;
  role=event.data.role;state=event.data.state;
+ sound.style.top=role==='display'?'1rem':'';sound.style.bottom=role==='display'?'auto':'1rem';
+ sound.textContent=audioContext?.state==='running'?'♪':({fr:'♪ Activer le son',tl:'♪ I-on ang tunog'}[state.language]||'♪ Enable sound');
  state={...state,experience:'werewolf',party:{...state.party,werewolf:state.party.community}};
  view||=createWerewolfView(app,role,{send:(action,value)=>{tell('action',{action,value});return Promise.resolve();},notice:text=>{document.querySelector('#notice').textContent=text;}});
  view.update(state,event.data.online);playSound();

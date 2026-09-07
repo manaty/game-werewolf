@@ -9,6 +9,7 @@ const drawings={
 export function wolfRoleArt(role){return `<svg class="wolf-card-art" viewBox="0 0 120 128" aria-hidden="true"><circle cx="60" cy="64" r="52" fill="none" stroke="currentColor" opacity=".2"/><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${drawings[role]||drawings.hidden}</g></svg>`;}
 export function createWolfScene(){
  const node=document.createElement('div');node.className='wolf-scene';node.setAttribute('aria-hidden','true');
- node.innerHTML='<img class="wolf-photo wolf-photo-day" src="/scenes/werewolf-day.png" alt=""><img class="wolf-photo wolf-photo-night" src="/scenes/werewolf-night.png" alt=""><div class="wolf-scene-shade"></div><div class="wolf-mist"></div><div class="wolf-stars">'+Array.from({length:12},()=>'<i></i>').join('')+'</div><div class="wolf-birds"><svg viewBox="0 0 100 30"><path d="M0 15Q12 3 24 15Q35 5 45 15M45 25Q56 13 68 25Q79 15 91 25" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>';
+ node.innerHTML='<img class="wolf-photo wolf-photo-day" src="assets/scenes/werewolf-day.png" alt=""><img class="wolf-photo wolf-photo-night" src="assets/scenes/werewolf-night.png" alt=""><div class="wolf-scene-shade"></div><div class="wolf-mist"></div><div class="wolf-stars">'+Array.from({length:12},()=>'<i></i>').join('')+'</div><div class="wolf-birds"><svg viewBox="0 0 100 30"><path d="M0 15Q12 3 24 15Q35 5 45 15M45 25Q56 13 68 25Q79 15 91 25" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>';
  return node;
 }
+
